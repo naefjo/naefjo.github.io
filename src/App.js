@@ -8,7 +8,7 @@ import CV from './components/cv'
 
 function App() {
   return (
-    <main className="text-gray-800 bg-gray-700 body-font">
+    <main className="text-gray-800 bg-zinc-50 body-font">
       <Navbar />
       <About />
       <CV />
