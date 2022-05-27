@@ -10,10 +10,10 @@ function classNames(...classes) {
 
 export default function Navbar() {
   const [navigation, setNav] = useState([
-    { name: 'About', href: '#about', current: false },
-    { name: 'CV', href: '#cv', current: true },
+    { name: 'About', href: '#about', current: true },
+    { name: 'CV', href: '#cv', current: false },
     { name: 'Projects', href: '#projects', current: false },
-    { name: 'Contact', href: '#', current: false },
+    { name: 'Contact', href: '#contact', current: false },
   ])
 
   return (
@@ -46,7 +46,6 @@ export default function Navbar() {
                             'px-3 py-2 rounded-md text-sm font-medium'
                           )}
 
-                          // className={`px-3 py-2 rounded-md text-sm font-medium ${item.current ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white"}`}
 
                           aria-current={item.current ? 'page' : undefined}
 

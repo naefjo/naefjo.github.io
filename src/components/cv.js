@@ -56,7 +56,7 @@ export default function CV() {
     return (
         <section id="cv">
             <div className="px-10 py-20">
-                <h1 className="text-center text-4xl sm:text-5xl text-zinc-800 font-medium pt-4 pb-4"> Work Experience</h1>
+                <h1 className="text-center text-4xl sm:text-5xl text-zinc-800 font-medium pt-4 pb-4">Work Experience</h1>
                 <WorkExperience 
                     title="Robotics Engineer Intern"
                     company="Voliro Airborne Robotics"
@@ -84,7 +84,7 @@ export default function CV() {
                     ]}
                 />
 
-                 <h1 className="text-center text-4xl sm:text-5xl text-zinc-800 font-medium pt-4 pb-4"> Education</h1>
+                 <h1 className="text-center text-4xl sm:text-5xl text-zinc-800 font-medium pt-4 pb-4">Education</h1>
                  <Education
                     school="ETH Zürich"
                     degree="MSc. Robotics, Systems and Control"
