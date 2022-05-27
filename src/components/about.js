@@ -32,6 +32,7 @@ export default function About() {
                     <img
                         className="object-cover object-center rounded-lg"
                         src={pic}
+                        alt="This is me :)"
                     />
                 </div>
             </div>

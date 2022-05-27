@@ -107,6 +107,7 @@ function Tabs() {
               </div>
               <div className='mx-auto sm:mx-0'>
                 <iframe
+                  title="Focus Project Final Report"
                   className='h-[40rem] w-[30rem]'
                   src={griffin_final_report_pdf} />
               </div>
@@ -129,6 +130,7 @@ function Tabs() {
               </div>
               <div className='mx-auto sm:mx-0'>
                 <iframe
+                  title="Bachelor Thesis pdf"
                   className='h-[40rem] w-[30rem]'
                   src={bachelor_thesis_pdf} />
               </div>
