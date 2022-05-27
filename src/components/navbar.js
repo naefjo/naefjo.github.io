@@ -67,7 +67,12 @@ export default function Navbar() {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <p className="text-white font-medium text-small">Joshua Näf</p>
+                <a 
+                  className="text-slate-200 hover:text-slate-50 font-medium text-small"
+                  href='#'
+                >
+                  Joshua Näf
+                </a>
               </div>
             </div>
           </div>
