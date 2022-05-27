@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.cb3581a0.css",
+    "main.js": "/portfolio/static/js/main.3063b79a.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/griffin_final_report.pdf": "/portfolio/static/media/griffin_final_report.cf9e3c4a917a06660eea.pdf",
+    "static/media/bt_motion_planning.pdf": "/portfolio/static/media/bt_motion_planning.a206f3c6f4d7aa2c7bf5.pdf",
+    "static/media/IMG_7205_cropped.jpg": "/portfolio/static/media/IMG_7205_cropped.33affec44cd731fd62a6.jpg",
+    "static/media/code.jpg": "/portfolio/static/media/code.e0bd8b04744d2b9c1550.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.cb3581a0.css.map": "/portfolio/static/css/main.cb3581a0.css.map",
+    "main.3063b79a.js.map": "/portfolio/static/js/main.3063b79a.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb3581a0.css",
+    "static/js/main.3063b79a.js"
+  ]
+}
