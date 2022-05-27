@@ -99,7 +99,7 @@ function MyTabPanel(props) {
         <div className='pb-10 sm:pb-0 sm:pr-10 md:pr-20'>
           <h3 className='font-bold text-lg'>Skills used:</h3>
           <p>{props.skills}</p>
-          <h3 className='font-bold text-lg mt-4'></h3>
+          <h3 className='font-bold text-lg mt-4'>Abstract</h3>
           <p>
             {props.description}
           </p>
@@ -109,6 +109,7 @@ function MyTabPanel(props) {
           <img
             className="object-cover object-center rounded-lg"
             src={props.img}
+            alt={props.title}
           />
           : null}
           {props.pdf ?

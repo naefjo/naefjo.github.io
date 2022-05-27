@@ -1,5 +1,3 @@
-import {useState} from 'react'
-
 function WorkExperience(props) {
     return (
         <div className="max-w-4xl mx-auto my-10 bg-zinc-100 px-8 py-4 rounded-lg shadow-lg">

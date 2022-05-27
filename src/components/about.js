@@ -13,9 +13,9 @@ export default function About() {
                         I'm <div className="inline italic">Joshua Näf</div>.
                     </h2>
                     <h3 className="title-font sm:text-4xl text-2xl mb-4 font-medium text-slate-200">
-                        Nice to meet you! 😄
+                        Nice to meet you! 🚀
                     </h3>
-                    <p className="mb-8 leading-relaxed text-xl text-slate-400 font-medium text-right">
+                    <p className="mx-8 sm:mx-0 mb-8 max-w-xl leading-relaxed text-xl text-slate-400 font-medium text-center md:text-right">
                         I'm a Robotics Engineer at Voliro and Robotics, Systems and Control master's student at ETH Zürich. 
                         <br />My background is in Mechanical Engineering and I am passionate about control systems and MAVs.
                     </p>
@@ -34,7 +34,7 @@ export default function About() {
                 </div>
                 <div className="flex justify-center lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                     <img
-                        className="object-cover object-center rounded-lg"
+                        className="object-contain object-center rounded-lg max-h-96"
                         src={pic}
                         alt="This is me :)"
                     />

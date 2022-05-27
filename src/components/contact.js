@@ -42,6 +42,7 @@ function IconLink(props) {
             className="flex-1 text-slate-200 italic hover:text-slate-50"
             href={props.link}
             target="_blank"
+            rel="noreferrer"
         >
             <div className="inline-flex space-x-2 items-center">
                 {props.icon}
