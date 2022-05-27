@@ -1,4 +1,4 @@
-import pic from './IMG_7205_cropped.jpg'
+import pic from '../resources/IMG_7205_cropped.jpg'
 
 
 export default function About() {
@@ -19,7 +19,7 @@ export default function About() {
                         <a
                         href="#contact"
                         className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
-                        Mail
+                        Get in Touch
                         </a>
                         <a
                         href="#projects"

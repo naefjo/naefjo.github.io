@@ -107,6 +107,17 @@ export default function CV() {
                     ]}
                  />
 
+                <Education
+                    school="Kantonsschule Olten"
+                    degree="Bilingual Matura (German & English)"
+                    location="Olten, Switzerland"
+                    date="Aug. 2013 – Jul. 2017"
+                    list={[
+                        "Core Subjects: Biology and Chemistry",
+                        "Complementary Subject: Computer Science",
+                        "Board member of the school’s student association (SOKO)",
+                    ]}
+                />
 
             </div>
         </section>
