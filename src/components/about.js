@@ -12,7 +12,7 @@ export default function About() {
                     <h2 className="title-font sm:text-4xl text-3xl font-medium text-slate-300">
                         I'm <div className="inline italic">Joshua Näf</div>.
                     </h2>
-                    <h3 className="title-font sm:text-4xl text-2xl mb-4 font-medium text-slate-200">
+                    <h3 className="title-font sm:text-4xl text-2xl mb-4 font-medium text-slate-300">
                         Nice to meet you! 🚀
                     </h3>
                     <p className="mx-8 sm:mx-0 mb-8 max-w-xl leading-relaxed text-xl text-slate-400 font-medium text-center md:text-right">

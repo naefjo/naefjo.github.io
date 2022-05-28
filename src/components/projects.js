@@ -48,7 +48,7 @@ function Tabs() {
   return (
     <div className="py-16 text-center sm:px-0">
       <Tab.Group>
-        <Tab.List className="inline-flex flex-row mb-4 sm:space-x-2 rounded-xl bg-zinc-500/20 p-1">
+        <Tab.List className="inline-flex flex-row mb-4 sm:space-x-2 mx-4 rounded-xl bg-zinc-500/20 p-1">
           {Object.keys(projects).map((category) => (
             <Tab
               key={category}
@@ -67,7 +67,7 @@ function Tabs() {
           ))}
         </Tab.List>
 
-        <Tab.Panels className="mt-2 mx-auto text-left">
+        <Tab.Panels className="mt-2 mx-4 text-left">
           
           {
             Object.values(projects).map(
