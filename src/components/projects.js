@@ -26,7 +26,7 @@ function Tabs() {
       {
         title: "Focus Project: Griffin – Aerial Manipulation",
         skills: "C++, Python, ROS, LaTeX",
-        description: "Micro aerial vehicles and their abilities have rapidly evolved in recent years. The ability to interact with their environment, known as aerial manipulation, is a par- ticularly new field of drone research. Most existing solutions of aerial manipulators utilize commercially available multirotors as a base platform, which are then suit- ably modified for manipulation. In contrast, project Griffin aimed to develop a fully integrated aerial manipulator design from scratch. It features a linear delta arm built into the structural part of the flying platform. To achieve omnidirectionality, four tiltable propeller groups were utilized. A key idea of using a linear delta ma- nipulator is the ability of the robot manipulator to compensate positional errors of the platform. During the project, the concept was successfully verified by grasping and releasing an object from above and from the side and demonstrating omnidi- rectional flight. The position of the end-effector was shown to be more accurate compared to a hypothetical fixed end-effector on the platform. The final result is a full proof of concept of an integrated omnidirectional aerial manipulator.",
+        description: "Micro aerial vehicles and their abilities have rapidly evolved in recent years. The ability to interact with their environment, known as aerial manipulation, is a particularly new field of drone research. Most existing solutions of aerial manipulators utilize commercially available multirotors as a base platform, which are then suitably modified for manipulation. In contrast, project Griffin aimed to develop a fully integrated aerial manipulator design from scratch. It features a linear delta arm built into the structural part of the flying platform. To achieve omnidirectionality, four tiltable propeller groups were utilized. A key idea of using a linear delta manipulator is the ability of the robot manipulator to compensate positional errors of the platform. During the project, the concept was successfully verified by grasping and releasing an object from above and from the side and demonstrating omnidirectional flight. The position of the end-effector was shown to be more accurate compared to a hypothetical fixed end-effector on the platform. The final result is a full proof of concept of an integrated omnidirectional aerial manipulator.",
         pdf: griffin_final_report_pdf
       },
       "Bachelor Thesis":
@@ -55,7 +55,7 @@ function Tabs() {
               className={({ selected }) =>
                 classNames(
                   'w-full max-w-[10rem] rounded-lg px-2 py-4 text-sm font-medium leading-5 text-white-700',
-                  'ring-white ring-opacity-60 ring-offset-2 focus:outline-none focus:ring-2',
+                  'ring-offset-2 focus:outline-none focus:ring-0',
                   selected
                     ? 'bg-white shadow ring-offset-amber-500'
                     : 'text-gray-900 hover:bg-zinc-200 hover:text-gray-700'

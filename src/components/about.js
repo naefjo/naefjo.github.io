@@ -4,7 +4,7 @@ import pic from '../resources/IMG_7205_cropped.jpg'
 export default function About() {
     return (
         <section id="about" className="bg-gray-700">
-            <div className="container max-w-7xl  mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
+            <div className="container max-w-7xl  mx-auto flex px-10 py-20 md:flex-row flex-col-reverse items-center">
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-end md:text-left mb-16 md:mb-0 items-center text-center">
                     <h1 className="title-font sm:text-5xl text-4xl mb-2 font-medium text-slate-200">
                         Hey! 
@@ -32,7 +32,7 @@ export default function About() {
                         </a>
                     </div>
                 </div>
-                <div className="flex justify-center lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <div className="mb-10 md:mb-0 flex justify-center lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                     <img
                         className="object-contain object-center rounded-lg max-h-96"
                         src={pic}
