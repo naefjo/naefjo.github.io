@@ -15,8 +15,8 @@ export default function About() {
                     <h3 className="title-font sm:text-4xl text-2xl mb-4 font-medium text-slate-300">
                         Nice to meet you! 🚀
                     </h3>
-                    <p className="mx-8 sm:mx-0 mb-8 max-w-xl leading-relaxed text-xl text-slate-400 font-medium text-center md:text-right">
-                        I'm a Robotics Engineer at Voliro and Robotics, Systems and Control master's student at ETH Zürich. 
+                    <p className="mx-8 sm:mx-0 mb-8 max-w-md leading-relaxed text-xl text-slate-400 font-medium text-center md:text-right">
+                        I am a Robotics, Systems and Control master's student at ETH Zürich. 
                         <br />My background is in Mechanical Engineering and I am passionate about control systems and MAVs.
                     </p>
                     <div className="flex justify-center">
