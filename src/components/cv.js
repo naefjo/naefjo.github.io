@@ -72,6 +72,7 @@ function ProfessionalCareer(props) {
                     <WorkExperience
                         title={experience.title}
                         company={experience.company}
+                        date={experience.date}
                         location={experience.location}
                         description={experience.description}
                         tasks={experience.tasks}
